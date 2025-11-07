@@ -1,0 +1,11 @@
+# Tokyo Night - https://github.com/zatchheems/tokyo-night-alacritty-theme
+general.import = ["~/.config/alacritty/themes/tokyo-night.toml"]
+
+[font]
+size = 15
+# FiraCode Nerd Font - https://www.nerdfonts.com/font-downloads
+# /Users/alex/.local/share/fonts
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
+bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }
+
+

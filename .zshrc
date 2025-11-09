@@ -14,5 +14,7 @@ if [ ! -d "$ZINIT_HOME" ]; then
 fi
 
 source "${ZINIT_HOME}/zinit.zsh"
-# run zinit zstatus
+
+# MUST BE AT THE END OF THE FILE (https://github.com/starship/starship)
+eval "$(starship init zsh)"
 

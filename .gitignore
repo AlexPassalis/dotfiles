@@ -1,12 +1,15 @@
 *
 !.gitignore
 
+# zsh
+!.zshrc
+
 !.config/
 !.config/**
-
 .config/**/.DS_Store
 
 # nvim
 !.config/nvim/plugin
 !.config/nvim/spell
 !.config/nvim/coc-settings.json
+
